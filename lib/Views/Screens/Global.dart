@@ -1,0 +1,27 @@
+import 'dart:math';
+
+class Global {
+  static final List animalname = [
+    'Elephant',
+    'Lion',
+    'Dog',
+    'Horse',
+    'Leopard',
+  ];
+  static final List animalD = [
+    "Elephants are the largest existing land animals. Three living species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant. They are the only surviving members of the family Elephantidae and the order Proboscidea. The order was formerly much more diverse during the Pleistocene, but most species became extinct during the Late Pleistocene epoch. Distinctive features of elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive skin.",
+    "The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, lions typically do not actively seek out and prey on humans.",
+    "The dog (Canis familiaris[4][5] or Canis lupus familiaris[5]) is a domesticated descendant of the wolf. Also called the domestic dog, it is derived from the extinct Pleistocene wolf,[6][7] and the modern wolf is the dog's nearest living relative.[8] Dogs were the first species to be domesticated[9][8] by hunter-gatherers over 15,000 years ago[7] before the development of agriculture.[1] Due to their long association with humans, dogs have expanded to a large number of domestic individuals[10] and gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.[11]The dog has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes.",
+    "The horse (Equus ferus caballus)[2][3] is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large, single-toed animal of today. Humans began domesticating horses around 4000 BCE, and their domestication is believed to have been widespread by 3000 BCE. Horses in the subspecies caballus are domesticated, although some domesticated populations live in the wild as feral horses. These feral populations are not true wild horses, as this term is used to describe horses that have never been domesticated. There is an extensive, specialized vocabulary used to describe equine-related concepts, covering everything from anatomy to life stages, size, colors, markings, breeds, locomotion, and behavior.",
+    "The leopard (Panthera pardus) is one of the five extant species in the genus Panthera, a member of the cat family, Felidae.[4] It occurs in a wide range in sub-Saharan Africa, in some parts of Western and Central Asia, Southern Russia, and on the Indian subcontinent to Southeast and East Asia. It is listed as Vulnerable on the IUCN Red List because leopard populations are threatened by habitat loss and fragmentation, and are declining in large parts of the global range. The leopard is considered locally extinct in Hong Kong, Singapore, South Korea, Jordan, Morocco, Togo, the United Arab Emirates, Uzbekistan, Lebanon, Mauritania, Kuwait, Syria, Libya, Tunisia and most likely in North Korea, Gambia, Laos, Lesotho, Tajikistan, Vietnam and Israel.[3] Contemporary records suggest that the leopard occurs in only 25% of its historical global range.[5][6]",
+  ];
+  static final List animalI = [
+    'https://i.pinimg.com/736x/92/c9/cb/92c9cbfc75d6d2cf8f5a8af4464c2d8f--send-message-the-s.jpg',
+    'https://i.pinimg.com/originals/88/2f/40/882f40d7c9310f0d3003bd51f0f6e215.jpg',
+    'https://avatars.mds.yandex.net/i?id=6b146f80327f04405653b6320b6cddc4-4297303-images-thumbs&n=13&exp=1',
+    'https://avatars.mds.yandex.net/i?id=0b176d0130eb29a58fbc2f12fdaeb0239397ec16-7458047-images-thumbs&n=13&exp=1',
+    'https://yandex-images.clstorage.net/GSV5b2156/595f19ufV/FL31eQSONHQdbvVevShjt02UhyEfcIjEhP4Ct-Cr02N3PoPDyMcq3ZgsK0HNK0KkpcNcfV0mofFhv0py-oaTrFGokGw04k1INWr1UokMD5NRuKcdP2DY2I2fXtqtwvILZh7L8olqhwhVwMKpAZqaBXmvVSFEb4mFZY4-izLT0jGMKfm9TCZdkGlCZHKF4Ovz4a2PrRd9BKkolitGzfLnA0627oONhrdo6QxuxX2WqkmN79ld7FesWeFyRkP7S-6JTEHReTwmmeDtXnQCvTRTAxUVI4lDHayl7Panqm3GH7PGWhZnifa_7J3YgqHdZrr14VflSUTDjJWlbm7jR8MOVczRSXkMJqV4QVKAwhV8HxN9TTMBz5E4KcBmJ_K5cofHEsbabx1CH0hZqKbJ3bJePVXjuSHEU8RZuaoy4y-7FjXcvZH5QFqxHJ0mHOoJcJPnjcXj0UuN6M1kHhd-8RabM6oyGqOpDmcEHXDuwYn2AvmpizmxnP-Atb3avk9Dg8J5zA1pyah-SehJ6lx-8QSbR-HBj4ETydwhXFJ7YjnCN7NaQloX0cZTlP1w3gGd1s4ldasVobyvZFkpllY_B4_6KczRwYXMWkEEMcIsdmk8308RRaeVj2l8Vdh2r0oNkpM3subeD-W21-xZVH69Vbo2-e1XAfmAW2ChIX5Wz3cfdl0s8ck53EK5LBF6qE59MHcrnU2bjasxdCXETgcO8bbvy64aBo_BxsPU6UBmWQWuOoXdG-m1mNMMbe2GxqNbFz6BLPHRCYjmrQShHnjKefhTZzmlowVjidRRfIK79qVih8uucmo_gVq73GGgglX1Kgqt2a-xRdBfdInxLtbfl-9eDfShRTHk7lH4GWKggv38w3ORpWspO0l4xbQ6834ZVuPDYiJeo6VKp6zthJ61_W4CyQl7uaFkr0gtseZq76czjnVA1REt2F5t5DHyXOplcOMzVWkj1TO9DIHQ3lPuhWrk',
+  ];
+  static final Random r1 = Random();
+  static int value = 0;
+}
